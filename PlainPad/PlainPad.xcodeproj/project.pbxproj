@@ -1,0 +1,45 @@
+// !$*UTF8*$!
+{archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+AAFC95544C0461584E91BC85 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/App.swift"; sourceTree = "<group>";};
+CAE5818C66883191B0F33659 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Document.swift"; sourceTree = "<group>";};
+0CC6A0C2AF5674442AB6E611 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Editor.swift"; sourceTree = "<group>";};
+C938D35056E0A1793AE34FCE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/FindController.swift"; sourceTree = "<group>";};
+EE5F6500A2518A199858F0AB = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Preferences.swift"; sourceTree = "<group>";};
+558FFEA212B6711A7055F0E5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/TextModel.swift"; sourceTree = "<group>";};
+CAEC46FD69CE63B871159C00 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/TestCases.swift"; sourceTree = "<group>";};
+E748B4FF976C9D75AF7B94ED = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tests/PlainPadTests.swift"; sourceTree = "<group>";};
+25AA0D5344965F9B6DD8561D = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/AppIcon.icns"; sourceTree = "<group>";};
+429D0230C59596BAEA6CC819 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resources/Info.plist"; sourceTree = "<group>";};
+8EC9A00BFD09B3190AC6B222 = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.md"; sourceTree = "<group>";};
+8BCD5BC4CDFDF0918087C782 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = PlainPad.app; sourceTree = BUILT_PRODUCTS_DIR;};
+F219C0274590DA45E4BEF1EA = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = PlainPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR;};
+F92FF825EA6BBAE124218541 = {isa = PBXBuildFile; fileRef = AAFC95544C0461584E91BC85;};
+B060DEDA514214516B6DBB5B = {isa = PBXBuildFile; fileRef = CAE5818C66883191B0F33659;};
+7E386F98AF764A369902551C = {isa = PBXBuildFile; fileRef = 0CC6A0C2AF5674442AB6E611;};
+42578356150BB1C7AF76C594 = {isa = PBXBuildFile; fileRef = C938D35056E0A1793AE34FCE;};
+FD64855CA4CA0736364D9C76 = {isa = PBXBuildFile; fileRef = EE5F6500A2518A199858F0AB;};
+5997899A642CBB0EC3A8C4D8 = {isa = PBXBuildFile; fileRef = 558FFEA212B6711A7055F0E5;};
+971ED9D05B25DB6C4D7680D4 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F92FF825EA6BBAE124218541, B060DEDA514214516B6DBB5B, 7E386F98AF764A369902551C, 42578356150BB1C7AF76C594, FD64855CA4CA0736364D9C76, 5997899A642CBB0EC3A8C4D8,); runOnlyForDeploymentPostprocessing = 0;};
+548BC98CD915826E6DB48657 = {isa = PBXBuildFile; fileRef = CAEC46FD69CE63B871159C00;};
+2304572ED9F8294E92401091 = {isa = PBXBuildFile; fileRef = E748B4FF976C9D75AF7B94ED;};
+6E431EB0650617AA1756B320 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (548BC98CD915826E6DB48657, 2304572ED9F8294E92401091,); runOnlyForDeploymentPostprocessing = 0;};
+55AFA84F2DD36F391BB6F726 = {isa = PBXBuildFile; fileRef = 25AA0D5344965F9B6DD8561D;};
+0189424A5A60FED329FA868E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (55AFA84F2DD36F391BB6F726,); runOnlyForDeploymentPostprocessing = 0;};
+7561BFB015D8F536760CB671 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+FBDC4F23F93125BBEEAE800C = {isa = PBXGroup; children = (8BCD5BC4CDFDF0918087C782, F219C0274590DA45E4BEF1EA,); name = Products; sourceTree = "<group>";};
+E50290A24C49A459B43487C5 = {isa = PBXGroup; children = (AAFC95544C0461584E91BC85, CAE5818C66883191B0F33659, 0CC6A0C2AF5674442AB6E611, C938D35056E0A1793AE34FCE, EE5F6500A2518A199858F0AB, 558FFEA212B6711A7055F0E5, CAEC46FD69CE63B871159C00, E748B4FF976C9D75AF7B94ED, 25AA0D5344965F9B6DD8561D, 429D0230C59596BAEA6CC819, 8EC9A00BFD09B3190AC6B222, FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>";};
+89E1FD6268CC0F221A2BE178 = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ENABLE_TESTABILITY = YES;}; name = Debug;};
+E6DE6C99132752C914FEF632 = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+65F43380A7FDA05CA228D639 = {isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178, E6DE6C99132752C914FEF632,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+E9B2E96ABC5F6856F2BE79CF = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = PlainPad; PRODUCT_BUNDLE_IDENTIFIER = local.plainpad.editor; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ENABLE_TESTABILITY = YES;}; name = Debug;};
+5A8C91857F674E16E2724F47 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = PlainPad; PRODUCT_BUNDLE_IDENTIFIER = local.plainpad.editor; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; COMBINE_HIDPI_IMAGES = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+5333CCA39857637925FB3D0C = {isa = XCConfigurationList; buildConfigurations = (E9B2E96ABC5F6856F2BE79CF, 5A8C91857F674E16E2724F47,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+FCB48D8F88BCDB0ED9FADFD7 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = PlainPadTests; PRODUCT_BUNDLE_IDENTIFIER = local.plainpad.editor.tests; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) XCODE_TESTS"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlainPad.app/Contents/MacOS/PlainPad"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ENABLE_TESTABILITY = YES;}; name = Debug;};
+942EEBBACD6C88CAE7F29B29 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = PlainPadTests; PRODUCT_BUNDLE_IDENTIFIER = local.plainpad.editor.tests; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) XCODE_TESTS"; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlainPad.app/Contents/MacOS/PlainPad"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks"; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release;};
+D6A3777C59EF8EDCB76F3ADB = {isa = XCConfigurationList; buildConfigurations = (FCB48D8F88BCDB0ED9FADFD7, 942EEBBACD6C88CAE7F29B29,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+D799BAE6088A90139B415FCC = {isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = C13732C8E715C9BEE4FA51C9; remoteInfo = PlainPad;};
+DE58E2B17C19600779694943 = {isa = PBXTargetDependency; target = C13732C8E715C9BEE4FA51C9; targetProxy = D799BAE6088A90139B415FCC;};
+C13732C8E715C9BEE4FA51C9 = {isa = PBXNativeTarget; buildConfigurationList = 5333CCA39857637925FB3D0C; buildPhases = (971ED9D05B25DB6C4D7680D4, 7561BFB015D8F536760CB671, 0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = PlainPad; productName = PlainPad; productReference = 8BCD5BC4CDFDF0918087C782; productType = "com.apple.product-type.application";};
+64BCB755386F844C96A2A5B0 = {isa = PBXNativeTarget; buildConfigurationList = D6A3777C59EF8EDCB76F3ADB; buildPhases = (6E431EB0650617AA1756B320,); buildRules = (); dependencies = (DE58E2B17C19600779694943,); name = PlainPadTests; productName = PlainPadTests; productReference = F219C0274590DA45E4BEF1EA; productType = "com.apple.product-type.bundle.unit-test";};
+98F54143AB4E86B28C3AFEE0 = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600;}; buildConfigurationList = 65F43380A7FDA05CA228D639; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = E50290A24C49A459B43487C5; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (C13732C8E715C9BEE4FA51C9, 64BCB755386F844C96A2A5B0,);};
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }
